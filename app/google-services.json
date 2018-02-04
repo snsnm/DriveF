@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "442509315511",
+    "firebase_url": "https://drivef-4e2ba.firebaseio.com",
+    "project_id": "drivef-4e2ba",
+    "storage_bucket": "drivef-4e2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442509315511:android:a7494427c09681fc",
+        "android_client_info": {
+          "package_name": "com.example.steve.drive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442509315511-d9m5nmq1eb3h514c5vpoojt3ri1e7ej3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.steve.drive",
+            "certificate_hash": "5c2fa9abfdc52ec15782bb6f04d724aa77d261be"
+          }
+        },
+        {
+          "client_id": "442509315511-m144me5u2j4e6fr99or7rtoi60i2nkmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjOpyM60iiPgNLz0hS1NuX6DUDLSMJnY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442509315511-m144me5u2j4e6fr99or7rtoi60i2nkmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

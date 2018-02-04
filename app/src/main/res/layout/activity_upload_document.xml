@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.steve.drive.UploadDocumentActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plase Upload the required documents. Please make sure the pictures are clear"/>
+
+    <ImageView
+        android:id="@+id/imgViewProfile"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Choose picture"
+        android:id = "@+id/choosePP">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Upload Profile Picture"
+        android:id = "@+id/uploadPP">
+    </Button>
+
+
+
+    <ImageView
+        android:id="@+id/imgViewLicense"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Choose picture for Driver License"
+        android:id = "@+id/chooseLicense">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Upload Driver License"
+        android:id = "@+id/uploadLicense">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id = "@+id/next">
+    </Button>
+
+
+
+
+
+
+
+
+</LinearLayout>
